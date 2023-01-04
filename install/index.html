@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Heybbs安装程序</title>
+	<meta name="viewport" content="width=de vice-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<link rel="stylesheet" href="../css/bootstrap.min.css">
+	<iframe id="iframe" name="fraSubmit"></iframe>
+</head>
+<body>
+
+<div id="mian" class="container">
+	<div style="max-width: 500px;  margin:0 auto; " class="panel panel">
+		<div class="panel-body">
+			<div class="page-header">
+				<h3>欢迎使用HEYBBS_v1.2 <small>资源分享+垂直社交</small></h3>
+				<p class="text-muted">本程序适用于Linux环境，适配与PHP 5.4 - 7.2 qq群：13191988</p>
+			</div>
+			<form action="install.php" method="post" target="fraSubmit">
+				<div class="form-group">
+					<span>数据库类型: </span>
+					<input class="form-control" type="text" name="db_leixin" autocomplete="off" placeholder="一般设置为 localhost" value="localhost">
+				</div>
+				<div class="form-group">
+					<span>数据库名称:</span>
+					<input class="form-control" type="text" name="db_name" autocomplete="off" >
+				</div>
+				<div class="form-group">
+					<span>数据库用户名:</span>
+					<input class="form-control" type="text" name="db_user" autocomplete="off" >
+				</div>
+				<div class="form-group">
+					<span>数据库用户密码:</span>
+					<input class="form-control" type="password" name="db_pass" >
+				</div>
+				<div class="form-group">
+					<span>管理员账号:</span>
+					<input class="form-control" type="text" name="admin_user" >
+				</div>
+				<div class="form-group">
+					<span>管理员密码:</span>
+					<input class="form-control" type="password" name="admin_pass" >
+				</div>
+				<div class="form-group">
+					<input id="bt" class="btn btn-primary btn-block" type="submit" value="立即安装" >
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+	
+</body>
+</html>

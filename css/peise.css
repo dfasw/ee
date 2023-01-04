@@ -1,0 +1,36 @@
+body { background-color: #222;}
+p{color: #888;}
+h3{color: #888;}
+h4{color: #888;}
+li{color: #888;}
+hr{border-top: 1px solid #222;}
+
+#ctlian{color: #888;}
+#din{background: #222; border:0px; color: #888; color: #888;}
+#sosuo{background: #222; border:0px; color: #888;}
+#save{background: #222; border:0px; color: #888;}
+#tou{ background-color: #111; border:0px;}
+#username{color: #0084ff}
+#zhuantai{border-bottom:1px solid #222;}
+#bodyxia{border-bottom:1px solid #222;}
+#panel{background-color: #111; border: 1px solid #222;}
+#sjdh{ background-color: #111; border-bottom:1px solid #222;}
+
+
+.alert-success{background: #111; border:0px; color: #888; color: #888;}
+.list-group-item{background: #222;border: 1px solid #111;}
+.text-muted{color: #666;}
+.well{background-color: #222;  border:1px solid #222;}
+.alert-warning{background-color: #222;  border:1px solid #222;}
+.table{border:1px solid #222;}
+.page-header{border-bottom:1px solid #222;}
+.panel{background-color: #111;border: 1px solid #222;}
+.divider{background-color: #222;}
+.a-upload {background: #222;border:0px;}
+.modal-header{border-bottom:1px solid #222;}
+
+#sjul{background: #111; border: 1px solid #222;}
+#lia{color: #888;}
+#fanye{background: #111; border:1px solid #222; }
+#text{background: #111; border:1px solid #222; }
+#up{background: #111; border:1px solid #222; }
